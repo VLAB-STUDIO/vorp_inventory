@@ -181,11 +181,11 @@ body {
 
 #inventoryElement {
     position: absolute;
-    top: 22.3vh;
-    left: 12.0vw;
-    width: 24vw;
-    height: 36.2vh;
-    border-color: rgba(15, 15, 15, 0);
+    top: 24.3vh;
+    left: 11.9vw;
+    width: 24.1vw;
+    height: 35.5vh;
+    border-color: rgba(255, 0, 0, 0);
     overflow-y: scroll;
     overflow-x: hidden;
     z-index: 1;
@@ -196,7 +196,7 @@ body {
     font-family: "crock";
     font-size: 0.8vw;
     color: white;
-    top: 77.2vh;
+    top: 77.7vh;
     left: 15vw;
 }
 
@@ -205,7 +205,7 @@ body {
     font-family: "crock";
     font-size: 0.8vw;
     color: gold;
-    top: 77.2vh;
+    top: 77.7vh;
     left: 23vw;
 }
 
@@ -214,7 +214,7 @@ body {
     font-family: "crock";
     font-size: 0.8vw;
     color: skyblue;
-    top: 77.2vh;
+    top: 77.7vh;
     left: 29vw;
 }
 
@@ -223,7 +223,7 @@ body {
     font-family: "crock";
     font-size: 0.8vw;
     color: white;
-    top: 77.2vh;
+    top: 77.7vh;
     left: 33vw;
 }
 
@@ -257,12 +257,12 @@ body {
 #information {
     text-align: center;
     position: absolute;
-    top: 58.9vh;
+    top: 59.2vh;
     left: 23.6vw;
     transform: translateX(-50%);
     width: 15vw;
     height: 3vh;
-    font-size: 0.9vw;
+    font-size: 1.1vw;
     color: white;
 }
 
@@ -270,9 +270,9 @@ body {
 #description {
     text-align: center;
     position: absolute;
-    top: 62.6vh;
-    font-size: 0.7vw;
-    color: white;
+    top: 62.8vh;
+    font-size: 0.8vw;
+    color: rgb(172, 172, 172);
     word-wrap: break-word;
     width: 17vw;
     height: 8vh;
@@ -283,9 +283,9 @@ body {
 #description2 {
     text-align: center;
     position: absolute;
-    top: 63vh;
-    font-size: 0.7vw;
-    color: white;
+    top: 63.0vh;
+    font-size: 0.8vw;
+    color: rgb(172, 172, 172);
     word-wrap: break-word;
     width: 17vw;
     height: 8vh;
@@ -301,7 +301,7 @@ body {
     transform: translateX(-50%);
     width: 15vw;
     height: 3vh;
-    font-size: 0.9vw;
+    font-size: 1.1vw;
     color: white;
 }
 
@@ -315,7 +315,7 @@ body {
     left: 0.2vw;
     margin: auto;
     max-width: 25vh;
-    top: 14vh;
+    top: 20vh;
     position: relative;
     width: 100%;
     height: auto;
@@ -419,7 +419,7 @@ body {
     display: flex;
     left: 32vw;
     position: absolute;
-    top: 11vh;
+    top: 12.5vh;
 }
 
 .carouselWrapper {
@@ -562,7 +562,7 @@ body {
 
 .controls {
     position: absolute;
-    top: 19vh;
+    top: 17.8vh;
     left: 14.5vw;
     width: 16.9vw;
     height: 3vh;
@@ -654,7 +654,7 @@ input#secondarysearch:-ms-input-placeholder {
 .item.active,
 .item:hover {
     background-color: rgba(26, 25, 25, 0.003);
-    border: 1px solid red;
+    border: 1px solid #f0c674;
     z-index: 100;
 
 }
